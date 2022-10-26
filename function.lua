@@ -20,7 +20,7 @@ function ImTiredOfThisLongFunction(y,n)
 	else
 		y= io.read()
 		n=io.read()
-		math.randomseed(os.clock()*789251)
+		math.randomseed(os.clock()*78925100000)
 		io.write(math.random(y,n), "\n")
 	end
 end
