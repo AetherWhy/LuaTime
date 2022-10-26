@@ -29,8 +29,7 @@ io.write("are you British?"," y/n", "\n")
 british = io.read()
 until british == "y" or british == "n"
 if british == "y" then io.write("L", '\n') os.execute(pause) os.exit()
-	else if british == "n" then ImTiredOfThisLongFunction(n,y)
+	elseif british == "n" then ImTiredOfThisLongFunction(n,y)
 else
 	end
-end
 os.execute 'pause'
