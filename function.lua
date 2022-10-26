@@ -7,7 +7,10 @@ function ImTiredOfThisLongFunction(y,n)
 		local n = math.sqrt(n)
 	 	--this if then else statement is done but I'm mad
 	 	if 5 == n
-	 		then io.write("secret mode unlocked","\n") trolled=io.read()
+	 		then io.write("secret mode unlocked","\n") trolled=io.read() if trolled == "trolled" then io.write("trolled", "\n") 
+	 		else print("terminating")
+	 		 os.exit() 
+	 		end
 	 		else io.write(n,"\n")
 	 	end
 	elseif j == "2"
