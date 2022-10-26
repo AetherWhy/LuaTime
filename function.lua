@@ -5,7 +5,7 @@ function ImTiredOfThisLongFunction(y,n)
 		io.write("square", "\n")
 		local n = io.read()
 		local n = math.sqrt(n)
-	 	--this if then else statement is done but i'm mad
+	 	--this if then else statement is done but I'm mad
 	 	if 5 == n
 	 		then io.write("secret mode unlocked","\n") trolled=io.read()
 	 		else io.write(n,"\n")
@@ -24,9 +24,13 @@ function ImTiredOfThisLongFunction(y,n)
 		io.write(math.random(y,n), "\n")
 	end
 end
+repeat
 io.write("are you British?"," y/n", "\n")
 british = io.read()
+until british == "y" or british == "n"
 if british == "y" then io.write("L", '\n') os.execute(pause) os.exit()
-	elseif british == "n" then ImTiredOfThisLongFunction(n,y)
+	else if british == "n" then ImTiredOfThisLongFunction(n,y)
+else
+	end
 end
 os.execute 'pause'
