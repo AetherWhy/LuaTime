@@ -26,7 +26,7 @@ function ImTiredOfThisLongFunction(y,n)
 end
 io.write("are you British?"," y/n", "\n")
 british = io.read()
-if british == "y" then io.write("L", '\n') os.execute('pause') os.exit()
+if british == "y" then io.write("L", '\n') os.execute(pause) os.exit()
 	elseif british == "n" then ImTiredOfThisLongFunction(n,y)
 end
 os.execute 'pause'
