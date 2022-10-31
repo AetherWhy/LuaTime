@@ -1,11 +1,13 @@
-function ImTiredOfThisLongFunction(y,n)
+local function ImTiredOfThisLongFunction(y,n)
 	j = io.read()
 	if j == "1"
+		--this if then else statement is done but I'm mad
 		then
+		repeat
 		io.write("square", "\n")
-		local n = io.read()
-		local n = math.sqrt(n)
-	 	--this if then else statement is done but I'm mad
+		n = io.read()
+		until tonumber(n)
+		n = math.sqrt(n)
 	 	if 5 == n
 	 		then io.write("secret mode unlocked","\n") trolled=io.read() if trolled == "trolled" then io.write("trolled", "\n") 
 	 		else print("terminating")
