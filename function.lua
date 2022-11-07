@@ -1,4 +1,13 @@
-local function ImTiredOfThisLongFunction(y,n)
+function awesome() -- making sleep thing using a vbs file (copied code)
+ local vb="test.vbs"
+local f=io.open(vb)
+f:write("WScript.Sleep(100)\n")
+f:close()
+for i=1,sleep do
+io.flush()
+os.execute(vb)
+end end
+local function ImTiredOfThisLongFunction(y,n) --defining main function
 	j = io.read()
 	if j == "1"
 		--this if then else statement is done but I'm mad
@@ -23,10 +32,10 @@ local function ImTiredOfThisLongFunction(y,n)
 	 	 print(next(a,y-1)) --i hate this, i hate this, i hate this, i hate this, i hate this, i hate this, i hate this, i hate this.
 	 --print the number that y is equal to in the table
 	else
-		y= io.read()
-		n=io.read()
-		math.randomseed(os.clock()*78925100000)
-		io.write(math.random(y,n), "\n")
+io.write("placeholder \n")
+sleep = io.read()
+awesome()
+io.write("why \n")
 	end
 end
 repeat
